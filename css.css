@@ -1,0 +1,52 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabecera */
+header {
+    background-color: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.info {
+    text-align: center;
+    margin: 20px;
+    font-size: 1rem;
+}
+
+/* Sección de juegos */
+.juegos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.juego {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.juego img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 10px;
+}
